@@ -1,0 +1,82 @@
+/* ================================================
+tablet layout 
+=================================================*/
+
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .social_area {
+        max-width: 440px;
+        padding-top: 16px;
+    }
+    .inner_menu {
+        background: none;
+    }
+    .inner_menu::after {
+        background: none;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0;
+        width: 80%;
+    }
+    .inner_menu {
+        min-height: auto;
+    }
+    .inner_header {
+        padding: 20px 0;
+        overflow: hidden;
+    }
+    #slider_area {
+        margin-top: 0px;
+    }
+    .inner_hero_area h2 {
+        font-size: 54px;
+        margin-top: 100px;
+    }
+}
+
+
+/* ================================================
+mobile layout 
+=================================================*/
+
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .mini_menu {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .mini_menu ul {
+        text-align: center;
+    }
+    .search_area {
+        float: none;
+        width: 220px;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+    .logo_area {
+        width: 100%;
+        text-align: center;
+    }
+    .social_area ul {
+        text-align: center;
+    }
+    .social_area ul li {
+        margin: 6px;
+    }
+    .inner_hero_area h2 {
+        font-size: 38px;
+    }
+    .child_work {
+        width: 98%;
+    }
+    .child_footer {
+        width: 96%;
+    }
+    .left_copyright {
+        width: 100%;
+        padding-left: 20px;
+    }
+    .right_copyright {
+        width: 100%;
+        text-align: center;
+    }
+}
